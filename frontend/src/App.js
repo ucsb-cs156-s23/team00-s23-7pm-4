@@ -4,6 +4,8 @@ import AvilaBeachPage from "main/pages/AvilaBeachPage";
 import LosAlamosPage from "main/pages/LosAlamosPage";
 import ArroyoGrandePage from "main/pages/ArroyoGrandePage";
 import OceansidePage from "main/pages/OceansidePage";
+import SeattlePage from "main/pages/SeattlePage";
+import SanJosePage from "main/pages/SanJosePage";
 
 import "bootstrap/dist/css/bootstrap.css";
 
@@ -18,6 +20,8 @@ function App() {
         <Route exact path="/towns/LosAlamos" element={<LosAlamosPage />} />
         <Route exact path="/towns/ArroyoGrande" element={<ArroyoGrandePage />} />
         <Route exact path="/towns/Oceanside" element={<OceansidePage />} />
+        <Route exact path="/towns/Seattle" element={<SeattlePage />} />
+        <Route exact path="/towns/SanJose"  element={<SanJosePage />} />
       </Routes>
     </BrowserRouter>
   );
