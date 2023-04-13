@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter basename="/STARTER-team00">
       <Routes>
         <Route exact path="/" element={<HomePage />} />
-        <Route exact path="/towns/AvilaBeach" element={<AvilaBeachPage />} />
+        <Route exact path="/towns/Seattle" element={<Seattle />} />
         <Route exact path="/towns/LosAlamos" element={<LosAlamosPage />} />
         <Route exact path="/towns/ArroyoGrande" element={<ArroyoGrandePage />} />
       </Routes>
